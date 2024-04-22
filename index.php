@@ -9,12 +9,12 @@ if (isset($_SESSION["userName"]) && isset($_SESSION["phone"])) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ChatRoom</title>
+        <title>Chat Website</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        <h1>ChatRoom</h1>
+        <h1>Chat Website</h1>
         <div class="chat">
             <h2>Welcome to <span><?= $_SESSION["userName"] ?></span></h2>
             <div class="msg">
