@@ -32,7 +32,4 @@ if ($rq = mysqli_query($db, $q)) {
     }
 }
 
-
-
-
 ?>
