@@ -59,10 +59,10 @@ if (isset($_POST["name"]) && isset($_POST["phone"])) {
 </head>
 
 <body>
-    <h1>ChatRoom</h1>
+    <h1>Chat Website</h1>
     <div class="login">
         <h2>Login</h2>
-        <p>This ChatRoom is the best example to demonstrate the concept of ChatBot and it's completely for begginners.</p>
+        <p>This Chat Website is the best example to demonstrate the concept of ChatBot and it's completely for begginners.</p>
         <form action="" method="post">
 
             <h3>UserName</h3>
