@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-include "db.php";
+include "connection.php";
 $msg = $_GET["msg"];
 $phone = $_SESSION["phone"];
 

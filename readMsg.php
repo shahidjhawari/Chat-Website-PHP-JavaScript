@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "db.php";
+include "connection.php";
 
 $q = "SELECT * FROM `msg`";
 if ($rq = mysqli_query($db, $q)) {

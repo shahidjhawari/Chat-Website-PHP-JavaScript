@@ -1,5 +1,5 @@
 <?php
-include "db.php";
+include "connection.php";
 session_start();
 
 if (isset($_POST["name"]) && isset($_POST["phone"])) {
