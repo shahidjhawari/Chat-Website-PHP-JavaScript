@@ -1,3 +1,3 @@
 <?php
 
-$db = mysqli_connect("localhost", "root", "", "chatRoom");
+$db = mysqli_connect("localhost", "root", "", "chatwebsite");
